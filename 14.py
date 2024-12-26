@@ -12,3 +12,17 @@ if __name__ == '__main__':
     s = input()
     result = swap_case(s)
     print(result)
+
+
+#without using swapcase function
+
+def swap_case(s):
+    result = ''
+    if chr in s:
+        if chr.isupper():
+            result+=chr.lower()
+        elif chr.islower():
+            result+=chr.upper()
+        else:
+            result+=chr
+    return chr
